@@ -1,0 +1,28 @@
+{
+  "name": "entropix-in/laravel-shared-auth",
+  "description": "Shard authentiation for all internal laravel apps.",
+  "type": "library",
+  "version": "1.0.0",
+  "autoload": {
+    "psr-4": {
+      "EntropixIn\\LaravelSharedAuth\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "EntropixIn\\LaravelSharedAuth\\SharedAuthServiceProvider"
+      ]
+    }
+  },
+  "authors": [
+    {
+      "name": "Rohan",
+      "email": "rohan@entropix.in"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "laravel/framework": "^9.0 || ^10.0 || ^11.0"
+  }
+}
